@@ -1,3 +1,5 @@
+This has only been tested from a linux machine. The raylib program loaded into the raylib/opt/raylib folder should be compiled for the kind of raspberry pi you are targeting. For testing I have been compiling my raylib programs on a raspberry pi and then loading them into raylib/opt/raylib
+
 # picore-raylib
 A slightly modified version of picore that boots and launches a raylib based program. I am doing it by adding things to the main filesystem that is loaded instead of through extensions to try to make it boot to the program as quickly as possible. This may not be a great way to do it. 
 
