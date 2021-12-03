@@ -1,5 +1,5 @@
 # picore-raylib
-A slightly modified version of picore that boots and launches a raylib based program,
+A slightly modified version of picore that boots and launches a raylib based program. I am doing it by adding things to the main filesystem that is loaded instead of through extensions to try to make it boot to the program as quickly as possible. This may not be a great way to do it. 
 
 1. get a piCore image from: http://tinycorelinux.net/13.x/armv6/releases/RPi/ - This repo is based on piCore-13.1.0.zip
 2. write the image to a micro-sd card
