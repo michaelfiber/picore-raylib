@@ -8,11 +8,14 @@ A slightly modified version of picore that boots and launches a raylib based pro
 5. Copy raylib.gz to the boot partition on the piCore sd card. It should end up in the same place as config.txt
 6. Edit config.txt to include raylib.gz. For instance if you are targeting a Raspberry Pi Zero you would look for the PI0 section, find this line:
 
+```
     [PI0]
     initramfs rootfs-13.1.0.gz,modules-5.10.77.gz,dr_n_u.gz followkernel
+```
 
 and change it to this:
 
+```
     [PI0]
     initramfs rootfs-13.1.0.gz,modules-5.10.77.gz,dr_n_u.gz,raylib.gz followkernel
-
+```
